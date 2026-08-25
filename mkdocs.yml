@@ -25,7 +25,11 @@ theme:
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.inlinehilite
   - admonition
   - pymdownx.details
@@ -37,6 +41,15 @@ nav:
   - Frontend:
       - JavaScript:
           - Hoisting: frontend/javascript/hoisting.md
+          - Closures: frontend/javascript/closures.md
+          - Temporal Dead Zone: frontend/javascript/tdz.md
+          - var vs let vs const: frontend/javascript/var-let-const.md
+          - Event Loop: frontend/javascript/event-loop.md
+          - Promises: frontend/javascript/promises.md
+          - Async/Await vs Promises: frontend/javascript/async-await-vs-promises.md
+          - The this Keyword: frontend/javascript/this-keyword.md
+          - Call, Apply, Bind: frontend/javascript/call-apply-bind.md
+          - Debounce vs Throttle: frontend/javascript/debounce-vs-throttle.md
   - Backend:
       - Spring Boot: backend/spring-boot/index.md
   - Mobile:
