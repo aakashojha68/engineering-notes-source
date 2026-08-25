@@ -50,6 +50,20 @@ nav:
           - The this Keyword: frontend/javascript/this-keyword.md
           - Call, Apply, Bind: frontend/javascript/call-apply-bind.md
           - Debounce vs Throttle: frontend/javascript/debounce-vs-throttle.md
+          - Higher-Order Functions: frontend/javascript/higher-order-functions.md
+          - Map/Set vs Object/Array: frontend/javascript/map-set-vs-object-array.md
+          - Web Workers: frontend/javascript/web-workers.md
+      - React:
+          - Virtual DOM & Reconciliation: frontend/react/virtual-dom-reconciliation.md
+          - useEffect Deep Dive: frontend/react/useeffect-deep-dive.md
+          - useMemo vs useCallback: frontend/react/usememo-vs-usecallback.md
+          - Custom Hooks: frontend/react/custom-hooks.md
+          - Context API vs Redux/Zustand: frontend/react/context-vs-redux-zustand.md
+          - Re-renders & Performance: frontend/react/rerenders-and-performance.md
+          - Controlled vs Uncontrolled: frontend/react/controlled-vs-uncontrolled.md
+          - Error Boundaries: frontend/react/error-boundaries.md
+          - SSR & Hydration: frontend/react/ssr-and-hydration.md
+          - Suspense & Lazy Loading: frontend/react/suspense-and-lazy-loading.md
   - Backend:
       - Spring Boot: backend/spring-boot/index.md
   - Mobile:
