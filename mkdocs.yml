@@ -68,5 +68,15 @@ nav:
       - Spring Boot: backend/spring-boot/index.md
   - Mobile:
       - React Native: mobile/react-native/index.md
-  - System Design: system-design/index.md
+  - System Design:
+      - Overview: system-design/index.md
+      - Networking:
+          - Foundations & DNS: system-design/networking/networking-foundations.md
+          - TCP: system-design/networking/tcp.md
+          - TLS / HTTPS: system-design/networking/tls-https.md
+          - HTTP Basics: system-design/networking/http-basics.md
+          - Cookies, Sessions & JWT: system-design/networking/cookies-and-auth.md
+          - REST API Design: system-design/networking/rest-api-design.md
+          - CORS: system-design/networking/cors.md
+          - GraphQL: system-design/networking/graphql.md
   - DSA: dsa/index.md
